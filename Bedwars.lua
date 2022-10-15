@@ -1,11 +1,5 @@
 repeat task.wait() until game:IsLoaded()
 
-warn([[
-    
-    Bedwars remotes recent changes:
-    Added consume remote (maybe?)
-]])
-
 local lp = game:GetService("Players").LocalPlayer
 
 function gr(t)
@@ -31,7 +25,7 @@ Bedwars = {
         [5] = { Name = "emerald_sword", Display = "Emerald Sword", Rank = 5 },
         [6] = { Name = "rageblade", Display = "Rage Blade", Rank = 6 },
     },
-    PickupRemote = gr(debug.getconstants(getmetatable(KnitClient.Controllers.ItemDropController).checkForPickup)),
+    PickupRemote = Client:Get(gr(debug.getconstants(getmetatable(KnitClient.Controllers.ItemDropController).checkForPickup))),
     ChestObserve = game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged["Inventory:SetObservedChest"],
     ChestGet = game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged["Inventory:ChestGetItem"],
     ChestGive = game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged["Inventory:ChestGiveItem"],
