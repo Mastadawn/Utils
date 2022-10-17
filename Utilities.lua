@@ -4,7 +4,7 @@ local origneck = game.Players.LocalPlayer.Character.Head.Neck.C0
 
 Utility = {
     Predict = function(player)
-        return player.Character.HumanoidRootPart.Position + (player.Character.HumanoidRootPart.Velocity * 0.15)
+        return player.Character.HumanoidRootPart.Position + (player.Character.HumanoidRootPart.Velocity * 0.075)
     end,
     GetNearbyPlayers = function(range,addself)
         local nearby = {}
