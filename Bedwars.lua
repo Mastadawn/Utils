@@ -35,6 +35,7 @@ Bedwars = {
     AttackRemote = Client:Get(gr(debug.getconstants(getmetatable(KnitClient.Controllers.SwordController)["attackEntity"])))["instance"],
     PaintRemote = Client:Get(gr(debug.getconstants(KnitClient.Controllers.PaintShotgunController.fire))),
     Eat = Client:Get(Consume),
+    SwordController = KnitClient.Controllers.SwordController,
 }
 
 return Bedwars
