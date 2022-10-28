@@ -34,6 +34,7 @@ Bedwars = {
     PurchaseItem = game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.BedwarsPurchaseItem,
     AttackRemote = Client:Get(gr(debug.getconstants(getmetatable(KnitClient.Controllers.SwordController)["attackEntity"])))["instance"],
     PaintRemote = Client:Get(gr(debug.getconstants(KnitClient.Controllers.PaintShotgunController.fire))),
+    HarvestRemote = game:GetService("ReplicatedStorage").rbxts_include.node_modules:FindFirstChild("@rbxts").net.out._NetManaged.CropHarvest,
     Eat = Client:Get(Consume),
     SwordController = KnitClient.Controllers.SwordController,
 }
