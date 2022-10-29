@@ -1,10 +1,10 @@
 Users = {
     User1 = {
-        User = "[Qewxehe{rpycfcvucOqzdgdwvdP]",
-        Pass = "[ECD]",
-        Whitelist1 = "[45gi<;6h=94;ege8e94hi::;<ifgh:he;fi7:h;6:4i96<j877j7:;4:4g4hi579gj4e:7hee67fifg<9<586=gefe4hd92fed43c4g529e:9e594h:544cfg8c66c3fdce;463:7:edgd54ccf58c2he753gf2e282985h556h:47g2849f85gd9cf8fedg:988gf27c6cec927;f49:ge32edf<574;8;fehe65ddg69d3if864hg3f393:96i667i;58h395:g96he:dg9gfeh;:99hg38d7dfd:38<g5:;hf43,-.1,01,222/2.2,1.0///2,2,,-/1,2/./1-0.+,2-0+2/0+11212.12-1+0-/...12+1++,.0+1.-.0,/-,//1--.-2.22+.-,-+2-/1.20/0-20.---0001/2-/0-21-2/.-]",
-        Whitelist2 = "[:eeif45j4fj;g=9h<g;f569jij877<j58;;=4e<<i97j8=8jf;g=:4jf7=i<8i;8=7h9eg9=94h4=;8:e89864898g3:f626h6g95h535d;873h9hee;5cd87;d4:dfg67624676c869;2f27;7ec7f5;69g6:g;5dh28;e9dh6;6h57g::c2;9963h:556hgh743d9e:f7;e9hd2h32dgcc878735787d97:<3g38<8fd8g6<7:h7;h<6ei39<f:ei7<7i68h;;d3<::74i;667ihi854e:f;g8<f:ie3i43ehdd92,-,1-.10//-0,1/002,/00/111,,02010.,0101+,+202,-0/..,/22+0.//21+./2/.000++2/1/0/-+/0/-01.2,01.,..2//+/,121-/1211--2220110-1102-1.0012/.2-.-]",
-        Whitelist3 = "[5::858:;<;9:98636883:;:9747994-220-02,11/,/1221.1.]",
+        UID = 1,
+        Name = "Mastadawn",
+        WL1 = "62aa8bc970c2fe574bb892743f7661c454cb553eab51bb2c4fae1c78de8b58ebfeb5a3e1ceafc0b770d0b07411dab484f9686d473cbb9f5b7a2eaff316dfc2ef",
+        WL2 = "5e6c540dd23bf07fb8064d9da39954442e3c778b861237e10a096715971f872364217ed480324ac9e1331b0097d742fbb79e977967bc801c865761d894692725",
+        WL3 = "WSƒ„WOVRWQV€TVRWV…WR‚‚ST€‚U€QT‚WP€…‚PRP‚V„‚SO‚XWOOU„€€‚OSWPPWƒƒQƒOSSVSOVU…TRU€TPQOP‚RTƒ‚„ƒSƒ„„„WUTP€‚VPVV…RWPP„€TR‚",
     },
 }
 return Users
