@@ -83,7 +83,7 @@ local Notifications = {
 
         for i=1,100 do
             Bar.Position = Bar.Position + UDim2.new(1/100,0,0,0)
-            task.wait(.02)
+            task.wait()
         end
         
         for i = 1,30 do
